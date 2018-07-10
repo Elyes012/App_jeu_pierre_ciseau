@@ -8,7 +8,7 @@ if (choiutls === "") {
     
 }
 else{
-    document.write("<h1>Player 1</h1>" +choiutls );
+    document.write("<h3>Player 1</h3>" +choiutls );
 }
 
     if (choipc <=5) 
@@ -25,7 +25,7 @@ choipc  = "pierre";
     {
         choipc = "ciseau";
     }
-    document.write("<h1>Computer </h1>" +choipc );
+    document.write("<h3>Computer </h3>" +choipc );
 
  
 
@@ -38,17 +38,18 @@ choipc  = "pierre";
         }
         else if ((choix1 === "feuille") && (choix2 === "ciseau"))
         { 
-            document.write("<h1>vous etes gagner/h1>");
+            document.write("<h2 >vous etes gagner</h2>");
+         
 
         }
         else if ((choix1 === "feuille") && (choix2 === "pierre"))
         {
-            document.write("<h1>vous etes gangner</h1>");
+            document.write("<h2>vous etes gangner</h2>");
         }
 
         else if ((choix1 === "pierre") && (choix2 === "ciseau"))
         {
-            document.write("<h1>vous etes gagner</h1>");
+            document.write("<h2>vous etes gagner</h2>");
         }
 
         else if ((choix1 === "pierre") && (choix2 === "feuille"))
